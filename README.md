@@ -32,6 +32,9 @@ daily-aws-automation/
 │   ├── week01/         # Week 1: Foundation scripts
 │   ├── week02/         # Week 2: Security focus
 │   └── utils/          # Shared utilities
+├── terraform/          # Infrastructure as Code
+│   ├── modules/        # Reusable Terraform modules
+│   └── environments/   # Environment configurations
 ├── docs/               # Documentation
 ├── tests/              # Unit tests
 └── requirements.txt    # Python dependencies
@@ -106,6 +109,7 @@ python scripts/week01/day05_cost_calculator.py --month current --breakdown-by-se
 - **Output Formatting**: Rich
 - **Testing**: pytest with moto for AWS mocking
 - **Code Quality**: black, flake8, mypy
+- **Infrastructure as Code**: Terraform 1.5+
 
 ## 🔒 Security Considerations
 
